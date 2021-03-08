@@ -1,4 +1,4 @@
-# Blockly Get Started
+# Scratch Custom Blocks
 This is a simple example of how to use custom [Scratch Blocks](https://github.com/LLK/scratch-blocks) in a web application. To learn more about it, checkout [Blockly documentation](https://developers.google.com/blockly/guides/create-custom-blocks/overview) on custom blocks.
 
 ## About Blockly
