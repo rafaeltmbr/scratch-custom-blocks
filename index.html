@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scratch Get Started</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="code-button-wrapper">
+      <pre class="code-container"></pre>
+    </div>
+
+    <!-- Blockly root div -->
+    <div id="blocklyDiv"></div>
+
+    <!-- Tooblx -->
+    <xml id="toolbox" style="display: none">
+      <category name="Text" colour="180" secondaryColour="180">
+        <block type="output_console" inline="false">
+          <value name="value">
+            <shadow type="text">
+              <field name="TEXT">Hello world</field>
+            </shadow>
+          </value>
+        </block>
+      </category>
+    </xml>
+
+    <!-- Code that starts in the Blockly workspace area -->
+    <xml xmlns="https://developers.google.com/blockly/xml" id="startBlocks" style="display: none">
+      <block type="output_console" inline="false">
+        <value name="value">
+          <shadow type="text">
+            <field name="TEXT">Hello world</field>
+          </shadow>
+        </value>
+      </block>
+    </xml>
+
+    <script src="./blockly_compressed_vertical.js"></script>
+    <script src="./msg/messages.js"></script>
+    <script src="./msg/scratch_msgs.js"></script>
+    <script src="./blocks_vertical/vertical_extensions.js"></script>
+    <script src="./blocks_common/math.js"></script>
+    <script src="./blocks_common/matrix.js"></script>
+    <script src="./blocks_common/note.js"></script>
+    <script src="./blocks_common/text.js"></script>
+    <script src="./blocks_common/colour.js"></script>
+    <script src="./blocks_vertical/control.js"></script>
+    <script src="./blocks_vertical/event.js"></script>
+    <script src="./blocks_vertical/motion.js"></script>
+    <script src="./blocks_vertical/looks.js"></script>
+    <script src="./blocks_vertical/procedures.js"></script>
+    <script src="./blocks_vertical/operators.js"></script>
+    <script src="./blocks_vertical/sound.js"></script>
+    <script src="./blocks_vertical/sensing.js"></script>
+    <script src="./blocks_vertical/data.js"></script>
+    <script src="./blocks_vertical/extensions.js"></script>
+    <script src="./blocks_vertical/default_toolbox.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
